@@ -15,7 +15,7 @@
         placeholder="Life goal.." [(ngModel)]="goalText">
 
       <br><span> {{ goalText}}</span> <br> <br>
-      <input type="submit" class="btn" value="{{btnText}}">
+      <input type="submit" class="btn" value="{{btnText}}" (click)="addItem()">
     </form>
   </div>
   <div class="col">
